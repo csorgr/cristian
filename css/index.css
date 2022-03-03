@@ -1,0 +1,300 @@
+body{
+    margin: 0px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.caja1{
+width: 100%;
+background-color: black;
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 12px;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-bottom: 10px;
+}
+
+.caja2{
+width: 94%;
+font-size: 14px;
+border-bottom: 1px solid #fbc004;
+display: flex;
+flex-direction: row;
+padding: 0px 3% 10px 3%;
+}
+.tel{
+width: 50%;
+}
+.sesion{
+width: 50%;
+text-align: right;
+}
+
+.caja3{
+width: 94%;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 3%;
+}
+.logo{
+width: 33%;  
+
+}
+.logo1{
+width: 85%;
+}
+.menu{
+width: 33%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.menu .boton{
+display: flex;
+flex-direction: row;
+}
+
+.separador{
+width: 100%;
+background-color: rgba(212, 212, 212, 0.849);
+display: flex;
+flex-direction: row;
+padding-bottom: 3px;
+}
+
+.caja5{
+width: 100%;
+font-size: 14px;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 20px;
+}
+
+.caja6{
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-bottom: 10px;
+
+}
+
+.separador1{
+width: 40%;
+border-bottom: 1px solid #fbc004;
+}
+.letra{
+width: 20%;
+font-size: 20px;
+text-align:center
+}
+.separador2{
+width: 40%;
+border-bottom: 1px solid #fbc004;
+}
+
+.caja7{
+width: 94%;
+display: flex;
+flex-direction: row;
+padding: 0px 3%;
+
+}
+
+.categorias{
+width: 20%;
+}
+.categorias p{
+margin-bottom: 10px;
+font-size: 14px;
+cursor: pointer;
+}
+.categorias p:first-child{
+margin-bottom: 10px;
+font-size: 16px;  
+font-weight: bold;
+cursor:default;
+}
+.mas{
+text-decoration: underline;  
+margin-top: 20px;  
+}
+.listado_productos{
+width: 80%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.producto{
+font-size: 12px;
+text-align: center;
+border-bottom: 1px solid #97a5a8;
+width: 22%;
+margin-bottom: 30px;
+}
+.imagen, .titulo, .precio{
+margin-bottom: 10px;
+}
+.imagen img{
+width: 190px;    
+}
+.pie{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.pie .boton{
+width: 30%;
+background-color: rgb(20, 20, 20);
+text-align: center;
+padding: 7px 0px;
+margin-top: 20px;
+margin-bottom: 30px;
+color: cornsilk;
+}
+.pie2{
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.registro{
+    width: 48%;
+}
+
+.fila_o{
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-bottom: 15px;
+flex-wrap: nowrap;
+}
+.fila_o .linea1{
+width: 100%;
+border-top: 2px solid #fbc004;    
+}
+.fila_o .linea2{
+width: 100%;
+text-align: center;
+font-size: medium;
+}
+.redsocial{
+width: 48%;   
+}
+
+.fila_r{
+width: 475px;
+float: left;
+margin-top: 10px;
+}
+
+.control1{
+    width: 460px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #fbc004; 
+    font-size: 16px;
+    padding: 3px;
+}
+
+@media(max-width:600px){
+
+.caja3{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.logo{
+width: 75%;  
+margin-bottom: 10px;
+}
+
+.menu{
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+.caja6{
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-bottom: 10px;
+flex-wrap: nowrap;
+}
+
+.separador1{
+width: 100%;
+
+}
+.letra{
+width: 100%;
+
+}
+.separador2{
+width: 100%;
+
+}
+
+
+.caja7{
+width: 94%;
+display: flex;
+flex-direction: column;
+padding: 0px 3%;
+
+}
+
+.categorias{
+width: 100%;
+}
+.categorias p{
+margin-bottom: 10px;
+font-size: 14px;
+cursor: pointer;
+}
+.categorias p:first-child{
+margin-bottom: 10px;
+font-size: 16px;  
+font-weight: bold;
+cursor:default;
+}
+.mas{
+text-decoration: underline;  
+margin-top: 20px;  
+}
+.listado_productos{
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.producto{
+font-size: 12px;
+text-align: center;
+border-bottom: 1px solid #97a5a8;
+width: 48%;
+margin-bottom: 30px;
+}
+.imagen, .titulo, .precio{
+    margin-bottom: 10px;
+}
+.imagen img{
+width: 100%;    
+}
+
+
+
+}
